@@ -26,13 +26,17 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 h2{
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 60px;
   color: #4200FF;
+  font-family: 'Muli', sans-serif;
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 5rem 0;
+}
+
+.section.pt-0.site-portfolio {
+  padding-bottom: 40px;
 }
 
 .filters a {
@@ -581,7 +585,7 @@ h2{
 }
 
 .logo{
-  max-width: 200px;
+  max-width: 150px;
 }
 
 h2::after{
@@ -633,4 +637,9 @@ h2::after{
 
 #myBtn:hover {
   color: rgb(56, 0, 211); /* Add a dark-grey background on hover */
+}
+
+.profile {
+  max-width: 150px;
+  border-radius: 50%;
 }
